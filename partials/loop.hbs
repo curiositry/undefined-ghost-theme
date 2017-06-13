@@ -1,0 +1,17 @@
+{{! Previous/next page links - only displayed on page 2+ }}
+{{#if pagination.prev}}
+  <div>
+    Page <strong>{{pagination.page}}</strong> of
+    <strong>{{pagination.pages}}</strong>
+  </div>
+{{/if}}
+
+{{! The loop itself }}
+{{#foreach posts}}
+    {{> post-teaser}}
+{{/foreach}}
+
+{{! Previous/next page links - displayed on every page }}
+{{pagination}}
+
+<br>

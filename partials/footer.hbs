@@ -1,0 +1,35 @@
+<footer class="site-footer">
+
+  {{! Uncomment if you want a copy of your navigation in the footer.
+      It gives your visitors something to do when
+      they finish an article other than commenting, sharing, or closing
+      the tab.
+  }}
+  {{!#if @blog.navigation}}
+    <!-- <nav class="site-footer__navigation" role="navigation">
+      <ul>
+        {{!navigation}}
+      </ul>
+    </nav> -->
+  {{!/if}}
+
+  <small class="site-footer__attribution">
+
+    <span class="site-footer__attribution--copyright">
+      &copy; {{date format="YYYY"}}
+      <a href="{{@blog.url}}/">{{@blog.title}}</a>
+    </span>&ensp;
+
+    <span class="site-footer__attribution--theme-author">
+      <a href="https://github.com/curiositry/undefined-ghost-theme">Undefined</a>
+      theme by
+      <a href="http://curiositry.github.io">Curiositry</a>
+    </span>&ensp;
+
+    <span class="site-footer__attribution--ghost">
+      Proudly published with <a href="https://ghost.org">Ghost</a>
+    </span>
+
+  </small>
+
+</footer>

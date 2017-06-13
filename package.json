@@ -1,0 +1,31 @@
+{
+  "name": "undefined",
+  "description": "A starting point for Ghost theme developers",
+  "demo": "",
+  "version": "1.0.0",
+  "engines": {
+      "ghost": ">=1.0.0 <1.0.1"
+  },
+  "author": {
+      "name": "Curiositry",
+      "email": "isa@automathic.org",
+      "url": "http://curiositry.com"
+  },
+  "config": {
+      "posts_per_page": 5
+  },
+  "gpm": {
+      "type": "theme",
+      "categories": [
+          "Minimal",
+          "Responsive",
+          "Typographic"
+      ]
+  },
+  "keywords": [
+      "responsive",
+      "ghost",
+      "starter",
+      "theme"
+  ]
+}

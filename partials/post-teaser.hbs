@@ -1,0 +1,47 @@
+<article class="post-teaser {{post_class}} container">
+
+  {{#if feature_image}}
+    <div class="post-teaser__thumbnail" id="{{url}}-post-thumbnail">
+      <img src="{{feature_image}}" alt="{{title}}" />
+    </div>
+  {{/if}}
+
+  <div class="post-teaser__text-container">
+    <header class="post-teaser__header">
+
+      <h2 class="post-teaser__title">
+        {{#if featured}}
+          [Featured]
+        {{/if}}
+        <a href="{{url}}">
+          {{title}}
+        </a>
+      </h2>
+    </header>
+
+    <div class="post-teaser__excerpt">
+      <p>
+        {{excerpt words="33"}}
+        <span class="read-more">…
+          <a class="read-more__link" href="{{url}}">
+            <span>read&nbsp;more&nbsp;&raquo;</span>
+          </a>
+        </span>
+      </p>
+    </div>
+
+    <footer class="post-teaser__meta">
+      Posted by {{author}} on
+      <time class="post-teaser__meta__date" datetime="{{date format='YYYY-MM-DD'}}">
+        {{date format="MMMM Do, YYYY"}}.
+      </time>
+      {{#if tags}}
+        <span class="post-teaser__meta__tags">
+          <!-- #{{tags separator=", #"}} -->
+          {{tags prefix="Tagged "}}
+        </span>
+      {{/if}}
+    </footer>
+ </div> <!-- end post-teaser__text-container -->
+</article>
+<br><br><br>

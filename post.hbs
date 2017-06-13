@@ -1,0 +1,56 @@
+{{!< default}}
+
+{{>content-header}}
+
+<main class="container content" id="content">
+
+  <article class="post {{post_class}}">
+
+    {{#post}}
+
+      <header class="post__header">
+          <h1 class="post__title">{{title}}</h1>
+
+          <div class="post__meta">
+              Posted by <a href="{{url}}">{{author.name}}</a> on 
+              <time class="post__date" datetime="{{date format='YYYY-MM-DD'}}">
+                {{date format="MMMM Do, YYYY"}}.
+              </time>
+
+              {{#if tags}}
+                <span class="post__tags">
+                  {{tags prefix="Tagged "}}
+                </span>
+              {{/if}}
+          </div>
+      </header>
+
+      <section class="post__content">
+          {{content}}
+      </section>
+
+      <hr>
+
+      <footer class="post__footer">
+
+      {{!> subscribe-widget}}
+
+      {{!> author-info}}
+
+      {{!> share}}
+
+      {{!> prev-next-posts}}
+
+      <br>
+      {{!
+        Uncomment this to enable Disqus commenting. Make sure to set your disqus
+        shortname first! See instructions in partials/comments.hbs
+      }}
+      {{!> comments}}
+
+      </footer>
+
+    {{/post}}
+
+  </article>
+</main>

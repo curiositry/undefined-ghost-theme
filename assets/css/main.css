@@ -8,5 +8,9 @@ body {
 }
 
 img {
-  max-width: 800px;
+  max-width: 100%;
+}
+
+.inline-block {
+  display: inline-block;
 }

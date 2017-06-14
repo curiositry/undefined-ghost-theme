@@ -1,0 +1,30 @@
+{{!< default}}
+
+{{> content-header}}
+<section class="tag-info container">
+
+  {{#if tag.feature_image}}
+    <img class="tag-info__image" src="{{tag.feature_image}}" alt="Image for {{tag.name}} tag" />
+  {{/if}}
+
+  <br><br>
+
+  <span class="tag-info__intro">Posts Tagged:</span>
+  <h1 class="tag-info__name">{{tag.name}}</h1>
+
+  <p class="tag-info__description">
+    {{tag.description}} Subscribe to this  tag’s <a href="{{@blog.url}}/tag/{{tag.slug}}/rss/">RSS feed</a> to get new {{tag.name}} posts as they’re written.
+  </p>
+
+  <span class="tag-info__meta">
+    {{plural pagination.total empty='There are no articles with this tag … how did you find it?!' singular='A <strong>% post</strong> collection:' plural='A <strong>% post</strong> collection:'}}
+     </span>
+  </span>
+
+  <br><br>
+
+</section>
+
+<main class="content">
+    {{> "loop"}}
+</main>

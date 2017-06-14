@@ -1,0 +1,44 @@
+{{#author}}
+  <section class="author-info">
+
+    <h4 class="author-info__name">
+      Written by <a href="{{url}}">{{name}}</a>
+    </h4>
+
+    {{#if profile_image}}
+      <img class="author-info__image" src="{{profile_image}}" alt="{{name}}’s Profile Image" />
+    {{/if}}
+
+    {{#if bio}}
+
+      <p class="author-info__bio mb0">{{bio}}
+      <!-- this p tag is closed after the location and website info -->
+    {{else}}
+      <p>Read <a href="{{url}}">more posts</a> by this author.
+      <!-- this p tag is closed after the location and website info -->
+    {{/if}}
+    <br><br>
+    <span class="author-info__meta">
+      {{#if location}}
+        <span class="author-info__location ">
+          Location:&nbsp;<strong>{{location}}</strong>&ensp;
+        </span>
+      {{/if}}
+
+      {{#if website}}
+        <span class="author-info__website">
+          Website:&nbsp;<a href="{{website}}"><strong>{{website}}</strong></a>&ensp;
+        </span>
+      {{/if}}
+
+      {{#if twitter}}
+        <span class="author-info__twitter">
+          Twitter&nbsp;handle:&nbsp;<a href="{{twitter_url}}"><strong>{{twitter}}</strong></a>.
+        </span>
+      {{/if}}
+
+    </p> <!-- end bio + meta paragraph -->
+
+  </span> {{! end author meta }}
+  </section> {{! end author info }}
+{{/author}}

@@ -1,0 +1,11 @@
+{{#get "tags" include="count.posts" order="count.posts asc"}}
+  <ul>
+    {{#foreach tags}}
+      {{#if count.posts}}
+        <li>
+          <a href="{{url}}">{{name}} ({{plural count.posts empty='No posts' singular='% post' plural='% posts'}})</a>
+        </li>
+      {{/if}}
+    {{/foreach}}
+  <ul>
+{{/get}}

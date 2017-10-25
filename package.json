@@ -2,9 +2,9 @@
   "name": "undefined",
   "description": "A starting point for Ghost theme developers",
   "demo": "",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
-      "ghost": ">=1.0.0 <1.0.1"
+      "ghost": ">=1.0.0 <1.15.1"
   },
   "author": {
       "name": "Curiositry",
@@ -19,6 +19,8 @@
       "categories": [
           "Minimal",
           "Responsive",
+          "Starter theme",
+          "Boilerplate",
           "Typographic"
       ]
   },
@@ -26,6 +28,7 @@
       "responsive",
       "ghost",
       "starter",
-      "theme"
+      "theme",
+      "boilerplate",
   ]
 }

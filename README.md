@@ -26,7 +26,9 @@ This starter theme has everything you need to get started making themes for the 
 **Getting started building on Undefined is as easy as one, two.**
 
 - **Download this starter theme by [clicking here](https://github.com/curiositry/undefined-ghost-theme/archive/master.zip), or clone it with Git**:
-```git clone https://github.com/curiositry/undefined-ghost-theme.git
+
+```
+git clone https://github.com/curiositry/undefined-ghost-theme.git
 ```
 
 2. **Add your custom styles.** Open up main.css and add your styles. Or, fire up your CSS pre- or post-processor of choice and replace `main.css` with your compiled stylesheet.

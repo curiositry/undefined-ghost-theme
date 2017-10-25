@@ -1,6 +1,6 @@
 ![Ghost Compatability](http://img.shields.io/badge/Compatible%20with%20Ghost-v1%20+-brightgreen.svg) ![Ghost Compatability](http://img.shields.io/badge/Compatible%20with%20Ghost%20LTS-v0.11.11%20+-brightgreen.svg)
 
-Undefined —A starting point for Ghost theme developers.
+Undefined — A starting point for Ghost theme developers
 ======================================================
 
 This starter theme has everything you need to get started making themes for the Ghost blogging platform.

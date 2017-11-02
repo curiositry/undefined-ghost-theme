@@ -32,3 +32,9 @@ git clone https://github.com/curiositry/undefined-ghost-theme.git
 ```
 
 2. **Add your custom styles.** Open up main.css and add your styles. Or, fire up your CSS pre- or post-processor of choice and replace `main.css` with your compiled stylesheet.
+
+### Screenshot
+
+Undefined is completely unstyled:L no custom fonts, no fancy colours, no nothing. The beauty of undefined is in the code, not the design. But unstyled HTML looks surprisingly OK in its own right — it looks better, in fact, than a lot of websites out there!
+
+![Screenshot of "undefined" — a starter theme for Ghost](http://cdn.autodidacts.io/img/undefined/undefined-ghost-theme.png)

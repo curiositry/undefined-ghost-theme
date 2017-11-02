@@ -35,6 +35,6 @@ git clone https://github.com/curiositry/undefined-ghost-theme.git
 
 ### Screenshot
 
-Undefined is completely unstyled:L no custom fonts, no fancy colours, no nothing. The beauty of undefined is in the code, not the design. But unstyled HTML looks surprisingly OK in its own right — it looks better, in fact, than a lot of websites out there!
+Undefined is completely unstyled: no custom fonts, no fancy colours, no nothing. The beauty of undefined is in the code, not the design. But unstyled HTML looks surprisingly OK in its own right — it looks better, in fact, than a lot of websites out there!
 
 ![Screenshot of "undefined" — a starter theme for Ghost](http://cdn.autodidacts.io/img/undefined/undefined-ghost-theme.png)

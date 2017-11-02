@@ -3,9 +3,9 @@
 Undefined — A starting point for Ghost theme developers
 ======================================================
 
-This starter theme has everything you need to get started making themes for the Ghost blogging platform.
+**This starter theme has everything you need to get started making themes for the Ghost blogging platform.**
 
-*Looking for a nice theme that’s ready to go? Check out my other themes, [Mnml](http://github.com/curiositry/mnml-ghost-theme) (free) and [Laminim](https://creativemarket.com/Curiositry/1037280-Laminim-%E2%80%94-Ghost-Theme-for-Bloggers) (premium)*
+*Looking for a nice theme that’s ready to go? Check out my other themes, [Mnml](http://github.com/curiositry/mnml-ghost-theme) (free) and [Laminim](https://creativemarket.com/Curiositry/1037280-Laminim-%E2%80%94-Ghost-Theme-for-Bloggers) (premium).*
 
 ### Features
 

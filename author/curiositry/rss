@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Curiositry - Undefined]]></title><description><![CDATA[A minimal starter theme for the Ghost blogging platform]]></description><link>http://curiostry.com/undefined-ghost-theme/</link><image><url>http://curiostry.com/undefined-ghost-theme/favicon.png</url><title>Curiositry - Undefined</title><link>http://curiostry.com/undefined-ghost-theme/</link></image><generator>Ghost 1.17</generator><lastBuildDate>Sun, 19 Nov 2017 09:13:55 GMT</lastBuildDate><atom:link href="http://curiostry.com/undefined-ghost-theme/author/curiositry/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[About The Undefined Starter Theme]]></title><description><![CDATA[<div class="kg-card-markdown"><p>This is a demo blog for <strong>Undefined</strong>, a minimal starter theme for the Ghost blogging platform. This free starter theme has everything you need to get started making themes for the Ghost blogging platform.</p>
+<p><em>Looking for a nice theme that’s ready to go? Check out my other themes, <a href="http://github.com/curiositry/mnml-ghost-theme">Mnml</a></em></p></div>]]></description><link>http://curiostry.com/undefined-ghost-theme/about/</link><guid isPermaLink="false">5a1130aee45e562cc7b73497</guid><category><![CDATA[Getting Started]]></category><category><![CDATA[Undefined]]></category><dc:creator><![CDATA[Curiositry]]></dc:creator><pubDate>Thu, 19 Sep 1901 10:37:00 GMT</pubDate><content:encoded><![CDATA[<div class="kg-card-markdown"><p>This is a demo blog for <strong>Undefined</strong>, a minimal starter theme for the Ghost blogging platform. This free starter theme has everything you need to get started making themes for the Ghost blogging platform.</p>
+<p><em>Looking for a nice theme that’s ready to go? Check out my other themes, <a href="http://github.com/curiositry/mnml-ghost-theme">Mnml</a> (free) and <a href="https://creativemarket.com/Curiositry/1037280-Laminim-%E2%80%94-Ghost-Theme-for-Bloggers">Laminim</a> (premium).</em></p>
+<h2 id="features">Features</h2>
+<ul>
+<li>
+<p><strong>Bring your own CSS</strong>. Front end developers are persnickety about their CSS frameworks: Some write everything from scratch, some roll their own framework that they use in all their projects (in my case, Sassify), and some use Bootstrap or Foundation or the current <em>framework-de-jour</em>. Undefined leaves all the styling to you: just drop your styles in <code>main.css</code> and you’re ready to go.</p>
+</li>
+<li>
+<p><strong>Responsive!</strong> Because plain HTML is responsive <em>by default</em>.</p>
+</li>
+<li>
+<p><strong>Ready for Ghost v1 and beyond.</strong> With undefined as a starting point, your theme is ready for the future.</p>
+</li>
+<li>
+<p><strong>Super modular.</strong> Undefined makes use of handlebar partials to break things into neat, self-contained modules. Don’t want a subscribe form? Remove the <code>subscribe-widget</code> module without code-surgery.</p>
+</li>
+<li>
+<p><strong>Ready-to-roll</strong>. Everything you’d expect from a Ghost theme is built in: A homepage with post teasers, author pages, tag pages, navigation menu, subscribe form, metadata, and more. Free cars don’t often come with gas in tank and air in the tires!</p>
+</li>
+<li>
+<p><strong>Smart defaults.</strong> You can customize undefined in a thousand different ways, and it makes the job easier by being as close to neutral as possible. It’s like a dark grey suit — it’s not flashy, but it can go anywhere. You get a menu with a list of links, a little author bio below each post, reasonable metadata below the title. You get a footer with copyright date and theme attribution. You get all the files that Ghost requires (post page, index, etc) to run, plus all the files a blog needs to be complete (tag and author pages, etc). Nothing fancy, but very respectable.</p>
+</li>
+<li>
+<p><strong>Cleanly coded and comprehensively commented</strong>. The code is nice and clean, W3C valid, and scores &quot;A&quot; on Google pagespeed.</p>
+</li>
+</ul>
+</div>]]></content:encoded></item></channel></rss>

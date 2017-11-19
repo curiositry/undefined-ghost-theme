@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    var apiUrl = '//localhost:2369/ghost/api/v0.1/',
+    var apiUrl = '//curiostry.com/undefined-ghost-theme/ghost/api/v0.1/',
         clientId,
         clientSecret,
         url,

@@ -1,3 +1,3 @@
 User-agent: *
-Sitemap: http://localhost:2369/sitemap.xml
+Sitemap: http://curiostry.com/undefined-ghost-theme/sitemap.xml
 Disallow: /ghost/

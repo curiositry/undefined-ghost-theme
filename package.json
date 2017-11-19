@@ -1,10 +1,10 @@
 {
   "name": "undefined",
-  "description": "A starting point for Ghost theme developers",
-  "demo": "",
-  "version": "1.0.2",
+  "description": "A minimal starter theme for the Ghost blogging platform",
+  "demo": "http://github.com/curiositry/undefined-ghost-theme",
+  "version": "1.0.3",
   "engines": {
-      "ghost": ">=1.0.0 <1.15.1"
+      "ghost": ">=1.17.3"
   },
   "author": {
       "name": "Curiositry",
@@ -29,6 +29,6 @@
       "ghost",
       "starter",
       "theme",
-      "boilerplate",
+      "boilerplate"
   ]
 }

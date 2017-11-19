@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Demo User - Undefined]]></title><description><![CDATA[A minimal starter theme for the Ghost blogging platform]]></description><link>http://localhost:2369/</link><image><url>http://localhost:2369/favicon.png</url><title>Demo User - Undefined</title><link>http://localhost:2369/</link></image><generator>Ghost 1.17</generator><lastBuildDate>Sun, 19 Nov 2017 08:57:56 GMT</lastBuildDate><atom:link href="http://localhost:2369/author/user-user/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Welcome to Ghost]]></title><description><![CDATA[<div class="kg-card-markdown"><p>You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at <code>&lt;your blog URL&gt;/ghost/</code>. When you arrive, you can select this post from a list</p></div>]]></description><link>http://localhost:2369/welcome-to-ghost/</link><guid isPermaLink="false">5a1130aee45e562cc7b7349a</guid><category><![CDATA[Getting Started]]></category><dc:creator><![CDATA[Demo User]]></dc:creator><pubDate>Sat, 12 Nov 2016 22:36:07 GMT</pubDate><media:content url="http://localhost:2369/content/images/2017/11/ghost_logo_big-1.png" medium="image"/><content:encoded><![CDATA[<div class="kg-card-markdown"><img src="http://localhost:2369/content/images/2017/11/ghost_logo_big-1.png" alt="Welcome to Ghost"><p>You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at <code>&lt;your blog URL&gt;/ghost/</code>. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!</p>
+<h2 id="gettingstarted">Getting Started</h2>
+<p>Ghost uses something called Markdown for writing. Essentially, it's a shorthand way to manage your post formatting as you write!</p>
+<p>Writing in Markdown is really easy. In the left hand panel of Ghost, you simply write as you normally would. Where appropriate, you can use <em>shortcuts</em> to <strong>style</strong> your content. For example, a list:</p>
+<ul>
+<li>Item number one</li>
+<li>Item number two
+<ul>
+<li>A nested item</li>
+</ul>
+</li>
+<li>A final item</li>
+</ul>
+<p>or with numbers!</p>
+<ol>
+<li>Remember to buy some milk</li>
+<li>Drink the milk</li>
+<li>Tweet that I remembered to buy the milk, and drank it</li>
+</ol>
+<h3 id="links">Links</h3>
+<p>Want to link to a source? No problem. If you paste in a URL, like <a href="http://ghost.org">http://ghost.org</a> - it'll automatically be linked up. But if you want to customise your anchor text, you can do that too! Here's a link to <a href="http://ghost.org">the Ghost website</a>. Neat.</p>
+<h3 id="whataboutimages">What about Images?</h3>
+<p>Images work too! Already know the URL of the image you want to include in your article? Simply paste it in like this to make it show up:</p>
+<p><img src="https://ghost.org/images/ghost.png" alt="Welcome to Ghost"></p>
+<p>Not sure which image you want to use yet? That's ok too. Leave yourself a descriptive placeholder and keep writing. Come back later and drag and drop the image in to upload:</p>
+<p>![A bowl of bananas]</p>
+<h3 id="quoting">Quoting</h3>
+<p>Sometimes a link isn't enough, you want to quote someone on what they've said. Perhaps you've started using a new blogging platform and feel the sudden urge to share their slogan? A quote might be just the way to do it!</p>
+<blockquote>
+<p>Ghost - Just a blogging platform</p>
+</blockquote>
+<h3 id="workingwithcode">Working with Code</h3>
+<p>Got a streak of geek? We've got you covered there, too. You can write inline <code>&lt;code&gt;</code> blocks really easily with back ticks. Want to show off something more comprehensive? 4 spaces of indentation gets you there.</p>
+<pre><code>.awesome-thing {
+    display: block;
+    width: 100%;
+}
+</code></pre>
+<h3 id="readyforabreak">Ready for a Break?</h3>
+<p>Throw 3 or more dashes down on any new line and you've got yourself a fancy new divider. Aw yeah.</p>
+<hr>
+<h3 id="advancedusage">Advanced Usage</h3>
+<p>There's one fantastic secret about Markdown. If you want, you can write plain old HTML and it'll still work! Very flexible.</p>
+<input type="text" placeholder="I'm an input field!">
+<p>That should be enough to get you started. Have fun - and let us know what you think :)</p>
+</div>]]></content:encoded></item><item><title><![CDATA[A Full and Comprehensive Style Test]]></title><description><![CDATA[This is a demo post which outputs every HTML element that we could think of so that you can see the theme's styling in action. Pretty neat, right?]]></description><link>http://localhost:2369/style-test/</link><guid isPermaLink="false">5a1130aee45e562cc7b7349c</guid><category><![CDATA[Formatting Demo]]></category><dc:creator><![CDATA[Demo User]]></dc:creator><pubDate>Sat, 27 Sep 2014 09:30:24 GMT</pubDate><content:encoded><![CDATA[<div class="kg-card-markdown"><p>Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p>
+<hr>
+<h1 id="heading1">Heading 1</h1>
+<h2 id="heading2">Heading 2</h2>
+<h3 id="heading3">Heading 3</h3>
+<h4 id="heading4">Heading 4</h4>
+<h5 id="heading5">Heading 5</h5>
+<h6 id="heading6">Heading 6</h6>
+<hr>
+<p>Lorem ipsum dolor sit amet, <a title="test link" href="#">test link</a> adipiscing elit. <strong>This is strong.</strong> Nullam dignissim convallis est. Quisque aliquam. <em>This is emphasized.</em> Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <cite>The New York Times</cite> (That’s a citation). <span style="text-decoration:underline;">Underline.</span> Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
+<p><abbr title="Hyper Text Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr> are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.  Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type <code>COPY <var>filename</var></code>. <del>Dinner’s at 5:00.</del> <ins>Let’s make that 7.</ins> This <span style="text-decoration:line-through;">text</span> has been struck.</p>
+<hr>
+<h2 id="media">Media</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+<h3 id="bigimage">Big Image</h3>
+<p><img src="http://localhost:2369/content/images/2016/11/testimg1.jpeg" alt="Test Image"></p>
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+<h3 id="smallimage">Small Image</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+<p><img src="http://localhost:2369/content/images/2016/11/testimg2.jpg" alt="Small Test Image"></p>
+<p>Labore et dolore.</p>
+<hr>
+<h2 id="listtypes">List Types</h2>
+<h3 id="definitionlist">Definition List</h3>
+<dl>
+<dt>Definition List Title</dt>
+<dd>This is a definition list division.</dd>
+<dt>Definition</dt>
+<dd>An exact statement or description of the nature, scope, or meaning of something: <em>our definition of what constitutes poetry.</em></dd>
+</dl>
+<h3 id="orderedlist">Ordered List</h3>
+<ol>
+<li>List Item 1</li>
+<li>List Item 2</li>
+<li>Nested list item A</li>
+<li>Nested list item B</li>
+<li>List Item 3</li>
+</ol>
+<h3 id="unorderedlist">Unordered List</h3>
+<ul>
+<li>List Item 1</li>
+<li>List Item 2</li>
+<li>Nested list item A</li>
+<li>Nested list item B</li>
+<li>List Item 3</li>
+</ul>
+<hr>
+<h2 id="table">Table</h2>
+<table>
+<tbody>
+<tr>
+<th>Table Header 1</th>
+<th>Table Header 2</th>
+<th>Table Header 3</th>
+</tr>
+<tr>
+<td>Division 1</td>
+<td>Division 2</td>
+<td>Division 3</td>
+</tr>
+<tr class="even">
+<td>Division 1</td>
+<td>Division 2</td>
+<td>Division 3</td>
+</tr>
+<tr>
+<td>Division 1</td>
+<td>Division 2</td>
+<td>Division 3</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="preformattedtext">Preformatted Text</h2>
+<p>Typographically, preformatted text is not the same thing as code. Sometimes, a faithful execution of the text requires preformatted text that may not have anything to do with code. Most browsers use Courier and that’s a good default — with one slight adjustment, Courier 10 Pitch over regular Courier for Linux users.</p>
+<h3 id="code">Code</h3>
+<p>Code can be presented inline, like <code>&lt;?php bloginfo('stylesheet_url'); ?&gt;</code>, or within a <code>&lt;pre&gt;</code> block. Because we have more specific typographic needs for code, we’ll specify Consolas and Monaco ahead of the browser-defined monospace font.</p>
+<pre><code>#container {
+    float: left;
+    margin: 0 -240px 0 0;
+    width: 100%;
+}
+</code></pre>
+<hr>
+<h2 id="blockquotes">Blockquotes</h2>
+<p>Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
+<blockquote>
+<p>Good afternoon, gentlemen. I am a HAL 9000 computer. I became operational at the H.A.L. plant in Urbana, Illinois on the 12th of January 1992. My instructor was Mr. Langley, and he taught me to sing a song. If you’d like to hear it I can sing it for you. <cite>— <a href="http://en.wikipedia.org/wiki/HAL_9000">HAL 9000</a></cite></p>
+</blockquote>
+<p>And here’s a bit of trailing text.</p>
+<hr>
+<h2 id="textlevelsemantics">Text-level semantics</h2>
+<p>The <a href="#">a element</a> example<br>
+The <abbr>abbr element</abbr> and <abbr title="Title text">abbr element with title</abbr> examples<br>
+The <b>b element</b> example<br>
+The <cite>cite element</cite> example<br>
+The <code>code element</code> example<br>
+The <del>del element</del> example<br>
+The <dfn>dfn element</dfn> and <dfn title="Title text">dfn element with title</dfn> examples<br>
+The <em>em element</em> example<br>
+The <i>i element</i> example<br>
+The <ins>ins element</ins> example<br>
+The <kbd>kbd element</kbd> example<br>
+The <mark>mark element</mark> example<br>
+The <q>q element <q>inside</q> a q element</q> example<br>
+The <s>s element</s> example<br>
+The <samp>samp element</samp> example<br>
+The <small>small element</small> example<br>
+The <span>span element</span> example<br>
+The <strong>strong element</strong> example<br>
+The <sub>sub element</sub> example<br>
+The <sup>sup element</sup> example<br>
+The <var>var element</var> example<br>
+The <u>u element</u> example</p>
+<!--## Forms-->
+<!--<form hidden> 
+<fieldset> 
+<legend>Inputs as descendents of labels (form legend)</legend>
+<label>
+<b>Text input</b>
+<input type="text" value="default value">
+</label>
+<label>
+<b>Email input</b>
+<input type="email">
+</label>
+<label>
+<b>Search input</b>
+<input type="search">
+</label>
+<label>
+<b>Tel input</b>
+<input type="tel">
+</label>
+<label>
+<b>URL input</b>
+<input type="url" placeholder="http://">
+</label>
+<label>
+<b>Password input</b>
+<input type="password" value="password">
+</label>
+<label>
+<b>File input</b><br>
+<input type="file">
+</label> 
+<label>
+<input type="radio" name="rad">
+<b>Radio input</b>
+</label>
+<label>
+<input type="checkbox">
+<b>Checkbox input</b>
+</label>
+<label>
+
+<input type="radio" name="rad"> Radio input
+</label>
+<label>
+<input type="checkbox"> Checkbox input
+</label> 
+<label>
+<b>Select field</b>
+<select>
+<option>Option 01</option>
+<option>Option 02</option>
+</select>
+</label>
+<label>
+<b>Textarea</b><br
+<textarea cols="30" rows="5" >Textarea text</textarea>
+</label> 
+</fieldset> 
+
+<fieldset> 
+<legend>Clickable inputs and buttons</legend>
+<input type="image" src="http://placekitten.com/90/24" alt="Image (input)">
+<input type="reset" value="Reset (input)">
+<input type="button" value="Button (input)">
+<input type="submit" value="Submit (input)"> 
+<button type="reset">Reset (button)</button>
+<button type="button">Button (button)</button>
+<button type="submit">Submit (button)</button> 
+</fieldset> 
+
+<fieldset id="boxsize"> 
+<legend>box-sizing tests</legend> 
+<div><input type="text" value="text"></div> 
+<div><input type="email" value="email"></div> 
+<div><input type="search" value="search"></div> 
+<div><input type="url" value="http://example.com"></div> 
+<div><input type="password" value="password"></div> 
+
+<div><input type="color" value="#000000"></div> 
+<div><input type="number" value="5"></div> 
+<div><input type="range" value="10"></div> 
+<div><input type="date" value="1970-01-01"></div> 
+<div><input type="month" value="1970-01"></div> 
+<div><input type="week" value="1970-W01"></div>
+<div><input type="time" value="18:23"></div>
+<div><input type="datetime" value="1970-01-01T00:00:00Z"></div> 
+<div><input type="datetime-local" value="1970-01-01T00:00"></div> 
+
+<div><input type="radio"></div> 
+<div><input type="checkbox"></div> 
+
+<div><select><option>Option 01</option><option>Option 02</option></select></div> 
+<div><textarea cols="30" rows="5" >Textarea text</textarea></div> 
+
+<div><input type="image" src="http://placekitten.com/90/24" alt="Image (input)"></div> 
+<div><input type="reset" value="Reset (input)"></div> 
+<div><input type="button" value="Button (input)"></div> 
+<div><input type="submit" value="Submit (input)"></div> 
+
+<div><button type="reset">Reset (button)</button></div> 
+<div><button type="button">Button (button)</button></div> 
+<div><button type="submit">Submit (button)</button></div> 
+</fieldset> 
+</form>
+
+-->
+<hr>
+<h2 id="embeds">Embeds</h2>
+<p>Sometimes all you want to do is embed a little love from another location and set your post alive.</p>
+<h3 id="video">Video</h3>
+<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/Rv9hn4IGofM?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+<br clear="all">
+<p>Culpa qui officia deserunt mollit anim id est laborum.</p>
+<h3 id="slides">Slides</h3>
+<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<script async class="speakerdeck-embed" data-id="34d2856027ce01316b5d621ab8e7d421" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<br clear="all">
+<p>Culpa qui officia deserunt mollit anim id est laborum.</p>
+<h3 id="audio">Audio</h3>
+<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p><strong>Mozart Piano Concerto No. 22, by the Chicago Symphony:</strong></p>
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/291831848&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+<p>Culpa qui officia deserunt mollit anim id est laborum.</p>
+<p><strong>Walden, by Henry David Thoreau — A Librevox Recording:</strong></p>
+<iframe src="https://archive.org/embed/walden_librivox" width="100%" height="40" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+<h3 id="code">Code</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+<div data-height="268" data-theme-id="0" data-slug-hash="bcqhe" data-default-tab="js" data-user="rglazebrook" class="codepen"><pre><code>var c = new Sketch.create({autoclear: false}),
+    bigCircle = 50,
+    littleCircle = 5,
+    // The velocity value determines how much to move the spinner head (in radians).
+    velocity = 0.105,
+    hue = 0,
+    // The alpha value below determines the length of the spinner&#39;s tail.
+    bg = &#39;rgba(40,40,40,.075)&#39;;
+    Spinner = function() {};
+<p>Spinner.prototype.setup = function() {<br>
+this.x = c.width / 2;<br>
+this.y = c.height / 2 - bigCircle;<br>
+this.rotation = 0;<br>
+}<br>
+Spinner.prototype.update = function() {<br>
+this.rotation += velocity;<br>
+this.rotation = this.rotation % TWO_PI;<br>
+this.x = c.width /2 + cos(this.rotation) * bigCircle;<br>
+this.y = c.height / 2 + sin(this.rotation) * bigCircle;<br>
+}<br>
+Spinner.prototype.draw = function() {<br>
+c.fillStyle = 'hsl('+hue+',50%,50%)';<br>
+c.beginPath();<br>
+c.arc(this.x, this.y, littleCircle, 0, TWO_PI);<br>
+c.fill();<br>
+c.closePath();<br>
+}<br>
+c.setup = function() {<br>
+spinner = new Spinner();<br>
+spinner.setup();<br>
+}<br>
+c.update = function() {<br>
+spinner.update();<br>
+hue = ++hue % 360;<br>
+}<br>
+c.draw = function() {<br>
+spinner.draw();<br>
+c.fillStyle = bg;<br>
+c.fillRect(0,0,c.width,c.height);<br>
+}<br>
+</p></code></pre><p></p>
+<p>See the Pen <a href="http://codepen.io/rglazebrook/pen/bcqhe/">Simple Rotating Spinner</a> by Rob Glazebrook (<a href="http://codepen.io/rglazebrook">@rglazebrook</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+</div><script async src="//codepen.io/assets/embed/ei.js"></script>
+<p>Isn't it beautiful.</p>
+</div>]]></content:encoded></item><item><title><![CDATA[The Businessman & The Fisherman]]></title><description><![CDATA[There are many ways to think about business, but sometimes we miss out on the voracity of life by obsessing too much over financial growth.]]></description><link>http://localhost:2369/the-businessman-the-fisherman/</link><guid isPermaLink="false">5a1130aee45e562cc7b73498</guid><category><![CDATA[Fiction]]></category><category><![CDATA[Fables]]></category><category><![CDATA[Example Content]]></category><dc:creator><![CDATA[Demo User]]></dc:creator><pubDate>Tue, 12 Aug 2014 09:59:00 GMT</pubDate><content:encoded><![CDATA[<div class="kg-card-markdown"><p>An American businessman took a vacation to a small coastal Mexican village on doctor’s orders. Unable to sleep after an urgent phone call from the office the first morning, he walked out to the pier to clear his head. A small boat with just one fisherman had docked, and inside the boat were several large yellowfin tuna. The American complimented the Mexican on the quality of his fish.</p>
+<p>“How long did it take you to catch them?” the American asked.</p>
+<p>“Only a little while,” the Mexican replied in surprisingly good English.</p>
+<p>“Why don’t you stay out longer and catch more fish?” the American then asked.</p>
+<p>“I have enough to support my family and give a few to friends,” the Mexican said as he unloaded them into a basket.</p>
+<p>“But… What do you do with the rest of your time?”</p>
+<p>The Mexican looked up and smiled. “I sleep late, fish a little, play with my children, take a siesta with my wife, Julia, and stroll into the village each evening, where I sip wine and play guitar with my amigos. I have a full and busy life, señor.”</p>
+<p>The American laughed and stood tall. “Sir, I’m a Harvard M.B.A. and can help you. You should spend more time fishing, and with the proceeds, buy a bigger boat. In no time, you could buy several boats with the increased haul. Eventually, you would have a fleet of fishing boats.”</p>
+<p>He continued, “Instead of selling your catch to a middleman, you would sell directly to the consumers, eventually opening your own cannery. You would control the product, processing, and distribution. You would need to leave this small coastal fishing village, of course, and move to Mexico City, then to Los Angeles, and eventually to New York City, where you could run your expanded enterprise with proper management.</p>
+<p>The Mexican fisherman asked, “But, señor, how long will all this take?”</p>
+<p>To which the American replied, “15-20 years, 25 tops.”</p>
+<p>“But what then, señor?”</p>
+<p>The American laughed and said, “That’s the best part. When the time is right, you would announce an IPO and sell your company stock to the public and become very rich. You would make millions.”</p>
+<p>“Millions señor? Then what?&quot;</p>
+<p>“Then you would retire and move to a small coastal fishing village, where you would sleep late, fish a little, play with your kids, take a siesta with your wife, and stroll in to the village in the evenings where you could sip wine and play your guitar with your amigos.”</p>
+</div>]]></content:encoded></item><item><title><![CDATA[Post Using All Markdown Options]]></title><description><![CDATA[<div class="kg-card-markdown"><h1 id="h1heading">H1 Heading</h1>
+<p>Lorem <strong>ipsum</strong> dolor sit <s>amet</s>, consectetuer <strong>adipiscing</strong> elit. Sed <code>eleifend</code> urna eu sapien. Quisque posuere nunc eu massa. Praesent bibendum lorem non leo. Morbi volutpat, urna eu fermentum rutrum, ligula lacus interdum mauris, ac pulvinar libero pede a enim. Etiam commodo malesuada ante. Donec nec ligula. Curabitur mollis</p></div>]]></description><link>http://localhost:2369/post-using-all-markdown-options/</link><guid isPermaLink="false">5a1130aee45e562cc7b73494</guid><category><![CDATA[Markdown]]></category><category><![CDATA[Formatting Demo]]></category><dc:creator><![CDATA[Demo User]]></dc:creator><pubDate>Sat, 12 Oct 2013 17:45:15 GMT</pubDate><content:encoded><![CDATA[<div class="kg-card-markdown"><h1 id="h1heading">H1 Heading</h1>
+<p>Lorem <strong>ipsum</strong> dolor sit <s>amet</s>, consectetuer <strong>adipiscing</strong> elit. Sed <code>eleifend</code> urna eu sapien. Quisque posuere nunc eu massa. Praesent bibendum lorem non leo. Morbi volutpat, urna eu fermentum rutrum, ligula lacus interdum mauris, ac pulvinar libero pede a enim. Etiam commodo malesuada ante. Donec nec ligula. Curabitur mollis semper diam.</p>
+<ul>
+<li>Item number one</li>
+<li>Item number two
+<ul>
+<li>A nested item</li>
+</ul>
+</li>
+<li>A final item</li>
+</ul>
+<p>or with numbers!</p>
+<ol>
+<li>Remember to buy some milk</li>
+<li>Drink the milk</li>
+<li>Tweet that I remembered to buy the milk, and drank it</li>
+</ol>
+<h3 id="links">Links</h3>
+<p>Want to link to a source? No problem. If you paste in url, like <a href="http://ghost.org">http://ghost.org</a> - it'll automatically be linked up. But if you want to customise your anchor text, you can do that too! Here's a link to <a href="http://ghost.org">the Ghost website</a>. Neat.</p>
+<h3 id="whataboutimages">What about Images?</h3>
+<p>Images work too! Already know the URL of the image you want to include in your article? Simply paste it in like this to make it show up:</p>
+<p><img src="http://tryghost.org/ghost.png" alt="The Ghost Logo"></p>
+<p>Not sure which image you want to use yet? That's ok too. Leave yourself a descriptive placeholder and keep writing. Come back later and drag and drop the image in to upload:</p>
+<p>![A bowl of bananas]</p>
+<h3 id="quoting">Quoting</h3>
+<p>Sometimes a link isn't enough, you want to quote someone on what they've said. It was probably very wisdomous. Is wisdomous a word? Find out in a future release when we introduce spellcheck! For now - it's definitely a word.</p>
+<blockquote>
+<p>Wisdomous - it's definitely a word.</p>
+</blockquote>
+<h3 id="code">Code</h3>
+<pre><code>cd /var/www/ghost/
+npm start --production
+</code></pre>
+<p>The other option for <code>code</code> is to use the inline code option.</p>
+<p>Also, you can use syntax highlighting:</p>
+<pre><code class="language-language-bash">cd /var/www/ghost/
+npm start --production
+</code></pre>
+<h3 id="horizontaldivider">Horizontal Divider</h3>
+<hr>
+<h3 id="inputfield">Input Field</h3>
+<input type="text" placeholder="I'm an input field!">
+<p>Etiam et sapien. Pellentesque nec quam a justo tincidunt laoreet. Aenean id enim. Donec lorem arcu, eleifend venenatis, rhoncus mollis, semper at, dui.</p>
+<h1 id="h1headingwithcode">H1 Heading <code>with</code> Code</h1>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed eleifend urna eu sapien. Quisque posuere nunc eu massa. Praesent bibendum lorem non leo. Morbi volutpat, urna eu fermentum rutrum, ligula lacus interdum mauris, ac pulvinar libero pede a enim. Etiam commodo malesuada ante. Donec nec ligula. Curabitur mollis semper diam.</p>
+<h2 id="h2headingwithcode">H2 Heading with <code>Code</code></h2>
+<p>Duis viverra nibh a felis condimentum pretium. Nullam tristique lacus non purus. Donec vel felis. Etiam et sapien. Pellentesque nec quam a justo tincidunt laoreet. Aenean id enim. Donec lorem arcu, eleifend venenatis, rhoncus mollis, semper at, dui. Praesent velit tellus, adipiscing et, blandit convallis, dictum at, dui. Integer suscipit tortor in orci. Phasellus consequat. Quisque dictum convallis pede.</p>
+<h3 id="h3headingwithcode">H3 Heading <code>with</code> Code</h3>
+<p>Mauris viverra scelerisque mauris. Nulla facilisis, elit malesuada pretium egestas, dolor arcu commodo est, at egestas massa tortor ut ante. Etiam eget libero. Aenean pretium, tellus sed sodales semper, turpis purus aliquet orci, pulvinar ornare odio tortor sit amet dui.</p>
+<h4 id="h4headingwithcode">H4 Heading with <code>Code</code></h4>
+<p>Aenean id orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus magna. Mauris tincidunt iaculis enim. Duis a mi vitae sapien dapibus tincidunt. Proin metus.</p>
+<h5 id="h5headingwithcode">H5 Heading <code>with</code> Code</h5>
+<p>Proin cursus, libero non auctor faucibus, urna mi vestibulum orci, sit amet fermentum nibh purus eget enim. Aenean aliquet ligula nec nulla. Praesent sit amet lorem vitae massa hendrerit auctor. Sed sit amet urna. Aenean sapien nunc, imperdiet a, pharetra in, consequat eu, neque. Phasellus vel sem gravida augue consequat tempor. Curabitur eget mauris at pede varius facilisis.</p>
+<h6 id="h6headingheadingwithcode">H6 Heading Heading with <code>Code</code></h6>
+<p>Mauris viverra scelerisque mauris. Nulla facilisis, elit malesuada pretium egestas, dolor arcu commodo est, at egestas massa tortor ut ante. Etiam eget libero. Aenean pretium, tellus sed sodales semper, turpis purus aliquet orci, pulvinar ornare odio tortor sit amet dui.</p>
+</div>]]></content:encoded></item></channel></rss>

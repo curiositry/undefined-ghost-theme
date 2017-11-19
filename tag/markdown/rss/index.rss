@@ -1,0 +1,57 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Markdown - Undefined</title><description>A minimal starter theme for the Ghost blogging platform</description><link>http://localhost:2369/</link><image><url>http://localhost:2369/favicon.png</url><title>Markdown - Undefined</title><link>http://localhost:2369/</link></image><generator>Ghost 1.17</generator><lastBuildDate>Sun, 19 Nov 2017 08:57:58 GMT</lastBuildDate><atom:link href="http://localhost:2369/tag/markdown/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Post Using All Markdown Options</title><description>&lt;div class="kg-card-markdown"&gt;&lt;h1 id="h1heading"&gt;H1 Heading&lt;/h1&gt;
+&lt;p&gt;Lorem &lt;strong&gt;ipsum&lt;/strong&gt; dolor sit &lt;s&gt;amet&lt;/s&gt;, consectetuer &lt;strong&gt;adipiscing&lt;/strong&gt; elit. Sed &lt;code&gt;eleifend&lt;/code&gt; urna eu sapien. Quisque posuere nunc eu massa. Praesent bibendum lorem non leo. Morbi volutpat, urna eu fermentum rutrum, ligula lacus interdum mauris, ac pulvinar libero pede a enim. Etiam commodo malesuada ante. Donec nec ligula. Curabitur mollis&lt;/p&gt;&lt;/div&gt;</description><link>http://localhost:2369/post-using-all-markdown-options/</link><guid isPermaLink="false">5a1130aee45e562cc7b73494</guid><category>Markdown</category><category>Formatting Demo</category><dc:creator>Demo User</dc:creator><pubDate>Sat, 12 Oct 2013 17:45:15 GMT</pubDate><content:encoded>&lt;div class="kg-card-markdown"&gt;&lt;h1 id="h1heading"&gt;H1 Heading&lt;/h1&gt;
+&lt;p&gt;Lorem &lt;strong&gt;ipsum&lt;/strong&gt; dolor sit &lt;s&gt;amet&lt;/s&gt;, consectetuer &lt;strong&gt;adipiscing&lt;/strong&gt; elit. Sed &lt;code&gt;eleifend&lt;/code&gt; urna eu sapien. Quisque posuere nunc eu massa. Praesent bibendum lorem non leo. Morbi volutpat, urna eu fermentum rutrum, ligula lacus interdum mauris, ac pulvinar libero pede a enim. Etiam commodo malesuada ante. Donec nec ligula. Curabitur mollis semper diam.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Item number one&lt;/li&gt;
+&lt;li&gt;Item number two
+&lt;ul&gt;
+&lt;li&gt;A nested item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A final item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;or with numbers!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Remember to buy some milk&lt;/li&gt;
+&lt;li&gt;Drink the milk&lt;/li&gt;
+&lt;li&gt;Tweet that I remembered to buy the milk, and drank it&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="links"&gt;Links&lt;/h3&gt;
+&lt;p&gt;Want to link to a source? No problem. If you paste in url, like &lt;a href="http://ghost.org"&gt;http://ghost.org&lt;/a&gt; - it'll automatically be linked up. But if you want to customise your anchor text, you can do that too! Here's a link to &lt;a href="http://ghost.org"&gt;the Ghost website&lt;/a&gt;. Neat.&lt;/p&gt;
+&lt;h3 id="whataboutimages"&gt;What about Images?&lt;/h3&gt;
+&lt;p&gt;Images work too! Already know the URL of the image you want to include in your article? Simply paste it in like this to make it show up:&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://tryghost.org/ghost.png" alt="The Ghost Logo"&gt;&lt;/p&gt;
+&lt;p&gt;Not sure which image you want to use yet? That's ok too. Leave yourself a descriptive placeholder and keep writing. Come back later and drag and drop the image in to upload:&lt;/p&gt;
+&lt;p&gt;![A bowl of bananas]&lt;/p&gt;
+&lt;h3 id="quoting"&gt;Quoting&lt;/h3&gt;
+&lt;p&gt;Sometimes a link isn't enough, you want to quote someone on what they've said. It was probably very wisdomous. Is wisdomous a word? Find out in a future release when we introduce spellcheck! For now - it's definitely a word.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Wisdomous - it's definitely a word.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="code"&gt;Code&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;cd /var/www/ghost/
+npm start --production
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The other option for &lt;code&gt;code&lt;/code&gt; is to use the inline code option.&lt;/p&gt;
+&lt;p&gt;Also, you can use syntax highlighting:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-language-bash"&gt;cd /var/www/ghost/
+npm start --production
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id="horizontaldivider"&gt;Horizontal Divider&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id="inputfield"&gt;Input Field&lt;/h3&gt;
+&lt;input type="text" placeholder="I'm an input field!"&gt;
+&lt;p&gt;Etiam et sapien. Pellentesque nec quam a justo tincidunt laoreet. Aenean id enim. Donec lorem arcu, eleifend venenatis, rhoncus mollis, semper at, dui.&lt;/p&gt;
+&lt;h1 id="h1headingwithcode"&gt;H1 Heading &lt;code&gt;with&lt;/code&gt; Code&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed eleifend urna eu sapien. Quisque posuere nunc eu massa. Praesent bibendum lorem non leo. Morbi volutpat, urna eu fermentum rutrum, ligula lacus interdum mauris, ac pulvinar libero pede a enim. Etiam commodo malesuada ante. Donec nec ligula. Curabitur mollis semper diam.&lt;/p&gt;
+&lt;h2 id="h2headingwithcode"&gt;H2 Heading with &lt;code&gt;Code&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Duis viverra nibh a felis condimentum pretium. Nullam tristique lacus non purus. Donec vel felis. Etiam et sapien. Pellentesque nec quam a justo tincidunt laoreet. Aenean id enim. Donec lorem arcu, eleifend venenatis, rhoncus mollis, semper at, dui. Praesent velit tellus, adipiscing et, blandit convallis, dictum at, dui. Integer suscipit tortor in orci. Phasellus consequat. Quisque dictum convallis pede.&lt;/p&gt;
+&lt;h3 id="h3headingwithcode"&gt;H3 Heading &lt;code&gt;with&lt;/code&gt; Code&lt;/h3&gt;
+&lt;p&gt;Mauris viverra scelerisque mauris. Nulla facilisis, elit malesuada pretium egestas, dolor arcu commodo est, at egestas massa tortor ut ante. Etiam eget libero. Aenean pretium, tellus sed sodales semper, turpis purus aliquet orci, pulvinar ornare odio tortor sit amet dui.&lt;/p&gt;
+&lt;h4 id="h4headingwithcode"&gt;H4 Heading with &lt;code&gt;Code&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;Aenean id orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus magna. Mauris tincidunt iaculis enim. Duis a mi vitae sapien dapibus tincidunt. Proin metus.&lt;/p&gt;
+&lt;h5 id="h5headingwithcode"&gt;H5 Heading &lt;code&gt;with&lt;/code&gt; Code&lt;/h5&gt;
+&lt;p&gt;Proin cursus, libero non auctor faucibus, urna mi vestibulum orci, sit amet fermentum nibh purus eget enim. Aenean aliquet ligula nec nulla. Praesent sit amet lorem vitae massa hendrerit auctor. Sed sit amet urna. Aenean sapien nunc, imperdiet a, pharetra in, consequat eu, neque. Phasellus vel sem gravida augue consequat tempor. Curabitur eget mauris at pede varius facilisis.&lt;/p&gt;
+&lt;h6 id="h6headingheadingwithcode"&gt;H6 Heading Heading with &lt;code&gt;Code&lt;/code&gt;&lt;/h6&gt;
+&lt;p&gt;Mauris viverra scelerisque mauris. Nulla facilisis, elit malesuada pretium egestas, dolor arcu commodo est, at egestas massa tortor ut ante. Etiam eget libero. Aenean pretium, tellus sed sodales semper, turpis purus aliquet orci, pulvinar ornare odio tortor sit amet dui.&lt;/p&gt;
+&lt;/div&gt;</content:encoded></item></channel></rss>

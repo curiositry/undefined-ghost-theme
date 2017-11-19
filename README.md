@@ -7,7 +7,7 @@ Undefined — A starting point for Ghost theme developers
 
 *Looking for a nice theme that’s ready to go? Check out my other themes, [Mnml](http://github.com/curiositry/mnml-ghost-theme) (free) and [Laminim](https://creativemarket.com/Curiositry/1037280-Laminim-%E2%80%94-Ghost-Theme-for-Bloggers) (premium).*
 
-### Features
+## Features
 
 - **Bring your own CSS**. Front end developers are persnickety about their CSS frameworks: Some write everything from scratch, some roll their own framework that they use in all their projects (in my case, Sassify), and some use Bootstrap or Foundation or the current *framework-de-jour*. Undefined leaves all the styling to you: just drop your styles in `main.css` and you’re ready to go.
 
@@ -23,20 +23,20 @@ Undefined — A starting point for Ghost theme developers
 
 - **Cleanly coded and comprehensively commented**. The code is nice and clean, W3C valid, and scores "A" on Google pagespeed.
 
-### Getting started
+## Getting started
 
-**Getting started building on Undefined is as easy as one, two.**
+Getting started building on Undefined is as easy as one, two.
 
-- **Download this starter theme by [clicking here](https://github.com/curiositry/undefined-ghost-theme/archive/master.zip), or clone it with Git**:
+- { 1 }: **Download this starter theme by [clicking here](https://github.com/curiositry/undefined-ghost-theme/archive/master.zip), or clone it with Git**:
 
 ```
 git clone https://github.com/curiositry/undefined-ghost-theme.git
 ```
 
-2. **Add your custom styles.** Open up main.css and add your styles. Or, fire up your CSS pre- or post-processor of choice and replace `main.css` with your compiled stylesheet.
+- { 2 }: **Add your custom styles.** Open up main.css and add your styles. Or, fire up your CSS pre- or post-processor of choice and replace `main.css` with your compiled stylesheet.
 
-### Screenshot
+## Screenshot
 
-Undefined is completely unstyled: no custom fonts, no fancy colours, no nothing. The beauty of undefined is in the code, not the design. But unstyled HTML looks surprisingly OK in its own right — it looks better, in fact, than a lot of websites out there!
+Undefined is completely unstyled: no custom fonts, no fancy colours, no nothing. The beauty of undefined is in the code, not the design. But unstyled HTML has a rugged beauty of its own — it looks better, in fact, than a lot of websites out there!
 
 ![Screenshot of "undefined" — a starter theme for Ghost](http://cdn.autodidacts.io/img/undefined/undefined-ghost-theme.png)

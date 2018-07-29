@@ -11,6 +11,35 @@ img {
   max-width: 100%;
 }
 
+figure {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style at will... */
+/* figure.kg-width-full { } */
+/* figure.kg-width-wide { } */
+/*
+PROTIP:
+Try something like as a starting point for centering images that are wider than their parent container's width:
+
+.full-bleed {
+	  width: 100vw;
+	  position: relative;
+	  left: 50%;
+	  right: 50%;
+	  margin-left: -50vw;
+	  margin-right: -50vw;
+	}
+
+For large images that aren't full width, but are larger than their parent, just replace 100vw with your max width (say, 1000px), and then replace the -50vw margins with -{NUM}px / 2 (in this case, -500px). You can see a version of this techinique in action in the stylesheet of my MNML Ghost theme:
+https://github.com/curiositry/mnml-ghost-theme
+*/
+
+figcaption {
+  text-align: center;
+}
+
 .inline-block {
   display: inline-block;
 }

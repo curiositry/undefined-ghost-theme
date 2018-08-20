@@ -2,9 +2,9 @@
   "name": "undefined",
   "description": "A minimal starter theme for the Ghost blogging platform",
   "demo": "http://github.com/curiositry/undefined-ghost-theme",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "engines": {
-      "ghost": ">=1.25.1"
+      "ghost": ">=2.0.0"
   },
   "author": {
       "name": "Curiositry",
@@ -29,6 +29,7 @@
       "ghost",
       "starter",
       "theme",
+      "ghost-theme",
       "boilerplate"
   ],
   "repository": {

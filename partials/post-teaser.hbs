@@ -31,7 +31,7 @@
     </div>
 
     <footer class="post-teaser__meta">
-      Posted by {{primary_author}} on
+      Posted by {{#primary_author}}<a href="{{url}}">{{name}}</a>{{/primary_author}} on
       <time class="post-teaser__meta__date" datetime="{{date format='YYYY-MM-DD'}}">
         {{date format="MMMM Do, YYYY"}}.
       </time>

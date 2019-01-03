@@ -14,10 +14,22 @@
   "config": {
       "posts_per_page": 5,
       "image_sizes": {
-        "m": {
-           "width": 800
+            "xs": {
+                "width": 400
+            },
+            "s": {
+                "width": 600
+            },
+            "m": {
+                "width": 800
+            },
+            "l": {
+                "width": 1000
+            },
+            "xl": {
+                "width": 3000
+            }
         }
-      }
   },
   "gpm": {
       "type": "theme",

@@ -1,20 +1,20 @@
 <header class="main-header" id="main-header">
 <div class="container">
 
-  {{#if @blog.logo}}
+  {{#if @site.logo}}
     <div class="main-header__logo">
-      <a href="{{@blog.url}}">
-        <img src="{{@blog.logo}}" alt="{{@blog.title}} Logo" />
+      <a href="{{@site.url}}">
+        <img src="{{@site.logo}}" alt="{{@site.title}} Logo" />
       </a>
     </div>
   {{/if}}
 
   <div class="main-header__text-container">
     <h1 class="main-header__blog-title">
-      <a href="{{@blog.url}}">{{@blog.title}}</a>
+      <a href="{{@site.url}}">{{@site.title}}</a>
     </h1>
     <h3 class="main-header__blog-description">
-      {{@blog.description}}
+      {{@site.description}}
     </h3>
   </div>
 

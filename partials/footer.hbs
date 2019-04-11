@@ -5,7 +5,7 @@
       they finish an article other than commenting, sharing, or closing
       the tab.
   }}
-  {{!#if @blog.navigation}}
+  {{!#if @site.navigation}}
     <!-- <nav class="site-footer__navigation" role="navigation">
       <ul>
         {{!navigation}}
@@ -17,7 +17,7 @@
 
     <span class="site-footer__attribution--copyright">
       &copy; {{date format="YYYY"}}
-      <a href="{{@blog.url}}/">{{@blog.title}}</a>
+      <a href="{{@site.url}}/">{{@site.title}}</a>
     </span>&ensp;
 
     <span class="site-footer__attribution--theme-author">

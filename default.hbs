@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{@site.lang}}">
 <head>
   {{! Document Settings }}
   <meta charset="utf-8" />
@@ -9,7 +9,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
   {{! Page Meta }}
-  <title>{{meta_title}}{{#is "post, page"}} — {{@blog.title}}{{/is}}</title>
+  <title>{{meta_title}}{{#is "post, page"}} — {{@site.title}}{{/is}}</title>
 
   {{! Styles }}
   <link rel="stylesheet" type="text/css" href="{{asset "css/main.css"}}" />

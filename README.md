@@ -13,7 +13,7 @@ Undefined — A starting point for Ghost theme developers
 
 - **Responsive!** Because plain HTML is responsive *by default*.
 
-- **Ready for Ghost v1 and beyond.** With undefined as a starting point, your theme is ready for the future.
+- **Ready for Ghost v2 and beyond.** With undefined as a starting point, your theme is ready for the future.
 
 - **Super modular.** Undefined makes use of handlebar partials to break things into neat, self-contained modules. Don’t want a subscribe form? Remove the `subscribe-widget` module without code-surgery.
 

@@ -16,6 +16,15 @@ figure {
   margin-right: auto;
 }
 
+figcaption {
+  text-align: center;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+
 /* IMAGE WIDTH STYLES */
 /* ================== */
 
@@ -56,10 +65,24 @@ https://github.com/TryGhost/Casper/pull/475/files#diff-ce5e030f2e2e2a50f18199464
 */
 
 
-figcaption {
-  text-align: center;
-}
+/* BOOKMARK CARD STYLES */
+/* ==================== */
 
-.inline-block {
-  display: inline-block;
-}
+/* Style at will... */
+/* .kg-bookmark-container { } */
+/* .kg-bookmark-content { } */
+/* .kg-bookmark-title { } */
+/* .kg-bookmark-description, */
+/* .kg-bookmark-metadata { } */
+/* .kg-bookmark-thumbnail { } */
+/* .kg-bookmark-thumbnail img { } */
+/* .kg-bookmark-icon { } */
+/* .kg-bookmark-author:after { } */
+
+/*
+Docs can be found here: https://ghost.org/docs/api/v2/handlebars-themes/editor/#bookmark-card
+
+The example implementation in the Ghost docs isn't bad, although you may want to adjust the image styles a bit.
+
+Want something a bit leaner? You can drop the snippet I used in my premium Weblog theme that right in here! Here it is: https://gist.github.com/curiositry/511c84204f136a97d65cf77a39b230bf
+*/

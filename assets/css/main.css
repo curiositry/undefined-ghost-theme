@@ -52,10 +52,10 @@ https://github.com/curiositry/mnml-ghost-theme
 /* ==================== */
 
 /* Style at will... */
-/* .kg-gallery-card { } */
-/* .kg-gallery-container { } */
-/* .kg-gallery-row { } */
-/* .kg-gallery-image { } */
+.kg-gallery-card { }
+.kg-gallery-container { }
+.kg-gallery-row { }
+.kg-gallery-image { }
 
 /*
 Docs can be found here: http://themes.ghost.org/docs/ghost-editor#section-gallery-card
@@ -69,15 +69,18 @@ https://github.com/TryGhost/Casper/pull/475/files#diff-ce5e030f2e2e2a50f18199464
 /* ==================== */
 
 /* Style at will... */
-/* .kg-bookmark-container { } */
-/* .kg-bookmark-content { } */
-/* .kg-bookmark-title { } */
-/* .kg-bookmark-description, */
-/* .kg-bookmark-metadata { } */
-/* .kg-bookmark-thumbnail { } */
-/* .kg-bookmark-thumbnail img { } */
-/* .kg-bookmark-icon { } */
-/* .kg-bookmark-author:after { } */
+.kg-bookmark-card { }
+.kg-bookmark-container { }
+.kg-bookmark-content { }
+.kg-bookmark-title { }
+.kg-bookmark-description,
+.kg-bookmark-metadata { }
+.kg-bookmark-thumbnail { }
+.kg-bookmark-thumbnail img { }
+.kg-bookmark-icon { }
+.kg-bookmark-author:after { }
+.kg-bookmark-publisher { }
+
 
 /*
 Docs can be found here: https://ghost.org/docs/api/v2/handlebars-themes/editor/#bookmark-card

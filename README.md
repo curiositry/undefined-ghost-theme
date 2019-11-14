@@ -1,7 +1,7 @@
-![Ghost Compatability](http://img.shields.io/badge/Compatible%20with%20Ghost-v2%20+-brightgreen.svg)
+![Ghost Compatability](http://img.shields.io/badge/Compatible%20with%20Ghost-v3%20+-brightgreen.svg)
 
 Undefined — A starting point for Ghost theme developers
-======================================================
+=======================================================
 
 **This starter theme has everything you need to get started making themes for the Ghost blogging platform.**
 
@@ -13,7 +13,7 @@ Undefined — A starting point for Ghost theme developers
 
 - **Responsive!** Because plain HTML is responsive *by default*.
 
-- **Ready for Ghost v2 and beyond.** With undefined as a starting point, your theme is ready for the future.
+- **Ready for Ghost v3 and beyond.** With undefined as a starting point, your theme is ready for the future.
 
 - **Super modular.** Undefined makes use of handlebar partials to break things into neat, self-contained modules. Don’t want a subscribe form? Remove the `subscribe-widget` module without code-surgery.
 

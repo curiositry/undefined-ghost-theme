@@ -89,3 +89,45 @@ The example implementation in the Ghost docs isn't bad, although you may want to
 
 Want something a bit leaner? You can drop the snippet I used in my premium Weblog theme that right in here! Here it is: https://gist.github.com/curiositry/511c84204f136a97d65cf77a39b230bf
 */
+
+
+/* SUBSCRIPTION & MEMBERSHIP STYLES */
+/* ================================= */
+
+.message-success,
+.message-error {
+  display: none;
+}
+
+.message-error,
+[data-members-error] {
+  color: red;
+}
+
+.message-success {
+  color: green;
+}
+
+.loading button span,
+.error button span,
+.success button span {
+  display: none;
+}
+
+.loading button::after {
+  content: "Loading...";
+}
+
+.error button::after {
+  content: "Error :(";
+}
+
+.success button::after {
+  content: "Success :)";
+}
+
+.success ~ .message-success,
+.invalid ~ .message-error,
+.error ~ .message-error {
+  display: block;
+}

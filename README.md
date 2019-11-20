@@ -35,6 +35,9 @@ git clone https://github.com/curiositry/undefined-ghost-theme.git
 
 - { 2 }: **Add your custom styles.** Open up main.css and add your styles. Or, fire up your CSS pre- or post-processor of choice and replace `main.css` with your compiled stylesheet.
 
+
+*If you plan on using the enabling memberships and subscriptions, you will also need to upload the included `routes.yaml` from the "Labs" tab of your blog’s admin panel.*
+
 ## Screenshot
 
 Undefined is completely unstyled: no custom fonts, no fancy colours, no nothing. The beauty of undefined is in the code, not the design. But unstyled HTML has a rugged beauty of its own — in fact, to my eyes it looks *better* than many ~~of the digital junkyards piled high with CSS + JavaScript~~ “modern” websites!

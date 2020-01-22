@@ -1,17 +1,10 @@
 <footer class="site-footer">
 
-  {{! Uncomment if you want a copy of your navigation in the footer.
-      It gives your visitors something to do when
-      they finish an article other than commenting, sharing, or closing
-      the tab.
-  }}
-  {{!#if @site.navigation}}
-    <!-- <nav class="site-footer__navigation" role="navigation">
-      <ul>
-        {{!navigation}}
-      </ul>
-    </nav> -->
-  {{!/if}}
+  {{#if @site.secondary_navigation}}
+    <nav class="site-footer__navigation" role="navigation">
+      {{navigation type="secondary"}}
+    </nav>
+  {{/if}}
 
   <small class="site-footer__attribution">
 

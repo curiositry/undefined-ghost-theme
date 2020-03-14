@@ -43,6 +43,7 @@
     // Give the parameter a variable name
     var action = getParameterByName('action');
     var stripe = getParameterByName('stripe');
+
     document.addEventListener("DOMContentLoaded", function(event) {
 
       // These classes can be used to show success notifications for each action.
@@ -54,14 +55,14 @@
       }
       if (action == 'subscribe') {
         document.body.classList.add("subscribe-success");
-        notifications.innerHTML = "You've successfully subscribed to " + siteTitle;
+        notifications.innerHTML = "You've successfully subscribed to {{@site.title}}";
       }
       if (action == 'signup') {
         window.location = '{{@site.url}}/signup/?action=checkout';
       }
       if (action == 'checkout') {
         document.body.classList.add("signup-success");
-        notifications.innerHTML = "Great! Next, complete checkout for full access to " + siteTitle;
+        notifications.innerHTML = "Great! Next, complete checkout for full access to {{@site.title}}";
       }
       if (action == 'signin') {
         document.body.classList.add("signin-success");

@@ -25,17 +25,6 @@
             <span class="subscriber-detail-content">{{@member.email}}</span>
           </div>
 
-
-          <style>
-            .price-per-month, .price-per-year {
-              display: none;
-            }
-            .plan-is-by-month .price-per-month,
-            .plan-is-by-year .price-per-year {
-              display: inline;
-            }
-          </style>
-
           <div class="subscriber-detail">
             <label class="subscriber-detail-label">Your plan: </label>
             <span class="subscriber-detail-content plan-is-by-{{plan.interval}}">

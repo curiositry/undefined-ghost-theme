@@ -58,6 +58,10 @@
             <span class="subscriber-detail-content">{{date current_period_end format="DD MMM YYYY"}}</span>
           </div>
         </div>
+        <a href="javascript:"
+          data-members-edit-billing
+          data-members-success="/account/?stripe=billing-update-success"
+          data-members-cancel="/account/?stripe=billing-update-cancel">Edit billing info</a>
         <br>
         {{cancel_link}}
       </div>

@@ -1,11 +1,16 @@
 {{!< ../default}}
 
 {{> main-header}}
-
+<br>
 {{#if @member.paid}}
 
   {{!-- Logged in, paying member: Show account info --}}
   <div class="subscriber-box center-text">
+
+    {{#if @member.avatar_image}}
+        <img style="max-width: 10rem;" src="{{@member.avatar_image}}" />
+    {{/if}}
+
     <h1 class="subscriber-box-title">Your account</h1>
 
     {{#foreach @member.subscriptions}}
@@ -61,7 +66,11 @@
 
   {{!-- Logged in, not paying: Link to checkout --}}
   <div class="account-box center-text">
-    <h1 class="account-box-title">Currently, you're not a subscriber</h1>
+    {{#if @member.avatar_image}}
+      <img style="max-width: 10rem;" src="{{@member.avatar_image}}" />
+    {{/if}}
+    <h1 class="account-box-title">Your account</h1>
+    <h3 class="account-box-subtitle">Currently, you're not a subscriber</h3>
     <p>Hey there! <strong>{{@member.email}}</strong> is subscribed to free updates from {{@site.title}}, but doesn't have a paid subscription to unlock full access.</p>
     <div class="authbox-signup">
       <a class="button primary" href="/signup/">

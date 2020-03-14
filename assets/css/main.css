@@ -94,6 +94,20 @@ Want something a bit leaner? You can drop the snippet I used in my premium Weblo
 /* SUBSCRIPTION & MEMBERSHIP STYLES */
 /* ================================= */
 
+.notification-area {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #99ea02;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.billing-cancel .notification-area {
+  background-color: #ccc;
+}
+
 .message-success,
 .message-error {
   display: none;

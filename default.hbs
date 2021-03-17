@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{@site.lang}}">
+<html lang="{{@site.locale}}">
 <head>
   {{! Document Settings }}
   <meta charset="utf-8" />
@@ -26,7 +26,6 @@
   {{> footer}}
 
   {{!-- Scripts for Members subscription --}}
-  {{#if @labs.members}}
     <script>
 
     // Code for members notifications
@@ -46,49 +45,48 @@
 
     document.addEventListener("DOMContentLoaded", function(event) {
 
-      // These classes can be used to show success notifications for each action.
-
-      var notifications = document.getElementById("notifications");
-      notifications.onclick = function(e){
-        notifications.hidden = true;
-        notifications.style.display = "none";
-      }
-      if (action == 'subscribe') {
-        document.body.classList.add("subscribe-success");
-        notifications.innerHTML = "You've successfully subscribed to {{@site.title}}";
-      }
-      if (action == 'signup') {
-        window.location = '{{@site.url}}/signup/?action=checkout';
-      }
-      if (action == 'checkout') {
-        document.body.classList.add("signup-success");
-        notifications.innerHTML = "Great! Next, complete checkout for full access to {{@site.title}}";
-      }
-      if (action == 'signin') {
-        document.body.classList.add("signin-success");
-        notifications.innerHTML = "Welcome back! You've successfully signed in.";
-      }
-      if (stripe == 'success') {
-        document.body.classList.add("checkout-success");
-        notifications.innerHTML = "Success! Your account is fully activated, you now have access to all content.";
-      }
-      if (stripe == 'billing-update-success') {
-        document.body.classList.add("billing-success");
-        notifications.innerHTML = "Success! Your billing info is updated.";
-      }
-      if (stripe == 'billing-update-cancel') {
-        document.body.classList.add("billing-cancel");
-        notifications.innerHTML = "Billing info update failed."
-      }
-      if (action || stripe) {
-        notifications.hidden = false;
-        notifications.style.display = "block";
-        URLSearchParams.delete(action);
-        URLSearchParams.delete(stripe);
-      }
-    });
-    </script>
-  {{/if}}
+    // These classes can be used to show success notifications for each action.
+    {{!-- Scripts for Members subscription --}}
+    var notifications = document.getElementById("notifications");
+    notifications.onclick = function(e){
+      notifications.hidden = true;
+      notifications.style.display = "none";
+    }
+    if (action == 'subscribe') {
+      document.body.classList.add("subscribe-success");
+      notifications.innerHTML = "You've successfully subscribed to {{@site.title}}";
+    }
+    if (action == 'signup') {
+      window.location = '{{@site.url}}/signup/?action=checkout';
+    }
+    if (action == 'checkout') {
+      document.body.classList.add("signup-success");
+      notifications.innerHTML = "Great! Next, complete checkout for full access to {{@site.title}}";
+    }
+    if (action == 'signin') {
+      document.body.classList.add("signin-success");
+      notifications.innerHTML = "Welcome back! You've successfully signed in.";
+    }
+    if (stripe == 'success') {
+      document.body.classList.add("checkout-success");
+      notifications.innerHTML = "Success! Your account is fully activated, you now have access to all content.";
+    }
+    if (stripe == 'billing-update-success') {
+      document.body.classList.add("billing-success");
+      notifications.innerHTML = "Success! Your billing info is updated.";
+    }
+    if (stripe == 'billing-update-cancel') {
+      document.body.classList.add("billing-cancel");
+      notifications.innerHTML = "Billing info update failed."
+    }
+    if (action || stripe) {
+      notifications.hidden = false;
+      notifications.style.display = "block";
+      URLSearchParams.delete(action);
+      URLSearchParams.delete(stripe);
+    }
+  });
+  </script>
 
   {{! Ghost outputs important scripts with this, including the the content for the code injection pane }}
   {{ghost_foot}}

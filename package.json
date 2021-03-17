@@ -2,10 +2,10 @@
   "name": "undefined",
   "description": "A minimal starter theme for the Ghost blogging platform",
   "demo": "http://github.com/curiositry/undefined-ghost-theme",
-  "version": "2.6.1",
+  "version": "3.0.0",
   "engines": {
-      "ghost": ">=3.11.0",
-      "ghost-api": "v3"
+      "ghost": ">=4.0.1",
+      "ghost-api": "v4"
   },
   "author": {
       "name": "Curiositry",

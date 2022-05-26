@@ -2,10 +2,9 @@
   "name": "undefined",
   "description": "A minimal starter theme for the Ghost blogging platform",
   "demo": "http://github.com/curiositry/undefined-ghost-theme",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "engines": {
-      "ghost": ">=4.0.1",
-      "ghost-api": "v4"
+      "ghost": ">=5.0.1"
   },
   "author": {
       "name": "Curiositry",
@@ -14,6 +13,7 @@
   },
   "config": {
       "posts_per_page": 5,
+      "card_assets": true,
       "image_sizes": {
             "xs": {
                 "width": 400

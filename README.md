@@ -1,4 +1,4 @@
-![Ghost Compatability](http://img.shields.io/badge/Compatible%20with%20Ghost-v3%20+-brightgreen.svg)
+![Ghost Compatability](http://img.shields.io/badge/Compatible%20with%20Ghost-v5%20+-brightgreen.svg)
 
 Undefined — A starting point for Ghost theme developers
 =======================================================

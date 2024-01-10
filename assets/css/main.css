@@ -25,6 +25,16 @@ figcaption {
   display: inline-block;
 }
 
+/* Remove vertical whitespace on initial, final, & stacked full-width cards, per recommendation. */
+.page--no-header .kg-width-full:not(.kg-card-hascaption):first-child,
+.kg-width-full + .kg-width-full {
+  margin-top: 0;  
+}
+.page__content .kg-width-full:not(.kg-card-hascaption):last-child,
+.kg-width-full + .kg-width-full {
+  margin-bottom: 0;
+}
+
 
 /* IMAGE WIDTH STYLES */
 /* ================== */

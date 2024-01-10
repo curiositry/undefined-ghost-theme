@@ -17,7 +17,7 @@
   {{! Ghost outputs important stuff with this tag }}
   {{ghost_head}}
 </head>
-<body class="{{body_class}}" id="body">
+<body class="{{body_class}} has-{{#match @custom.header_font "Elegant serif"}}serif{{else match @custom.header_font "Modern sans-serif"}}sans{{else}}mono{{/match}}-header has-{{#match @custom.text_font "Elegant serif"}}serif{{else match @custom.text_font "Modern sans-serif"}}sans{{else}}mono{{/match}}-text" id="body">
 
   {{! Everything else gets inserted here }}
   {{{body}}}

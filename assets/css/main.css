@@ -1,11 +1,68 @@
 /* Put your styles (or personal collection of CSS frameworks) here */
 
+:root {
+  --serif-font-stack: serif;
+  --sans-font-stack: sans;
+  --mono-font-stack: monospace;
+}
+
 body {
   max-width: 800px;
   margin-right: auto;
   margin-left: auto;
   line-height: 1.5;
 }
+
+.has-serif-text p {
+  font-family: var(--serif-font-stack);
+}
+
+.has-sans-text p {
+  font-family: var(--sans-font-stack);
+}
+
+.has-mono-text p {
+  font-family: var(--mono-font-stack);
+}
+
+.has-serif-header * {
+  font-family: var(--serif-font-stack);
+}
+
+.has-sans-header * {
+  font-family: var(--sans-font-stack);
+}
+
+.has-mono-header * {
+  font-family: var(--mono-font-stack);
+} 
+
+/* .has-serif-header h1,
+.has-serif-header h2,
+.has-serif-header h3,
+.has-serif-header h4,
+.has-serif-header h5,
+.has-serif-header h6 {
+  font-family: var(--serif-font-stack);
+}
+
+.has-sans-header h1,
+.has-sans-header h2,
+.has-sans-header h3,
+.has-sans-header h4,
+.has-sans-header h5,
+.has-sans-header h6 {
+  font-family: var(--sans-font-stack);
+}
+
+.has-mono-header h1,
+.has-mono-header h2,
+.has-mono-header h3,
+.has-mono-header h4,
+.has-mono-header h5,
+.has-mono-header h6 {
+  font-family: var(--mono-font-stack);
+} */
 
 img {
   max-width: 100%;

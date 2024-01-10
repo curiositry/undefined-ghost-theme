@@ -2,9 +2,9 @@
   "name": "undefined",
   "description": "A minimal starter theme for the Ghost blogging platform",
   "demo": "http://github.com/curiositry/undefined-ghost-theme",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "engines": {
-      "ghost": ">=5.9.4"
+      "ghost": ">=5.75.3"
   },
   "author": {
       "name": "Curiositry",
@@ -30,7 +30,31 @@
             "xl": {
                 "width": 3000
             }
+        },
+    "custom": {
+        "site_background_color": {
+            "type": "color",
+            "default": "#ffffff"
+        },
+        "header_font": {
+            "type": "select",
+            "options": [
+                "Modern sans-serif",
+                "Elegant serif",
+                "Timeless mono"
+            ],
+            "default": "Elegant serif"
+        },
+        "text_font": {
+            "type": "select",
+            "options": [
+                "Modern sans-serif",
+                "Elegant serif",
+                "Timeless mono"
+            ],
+            "default": "Elegant serif"
         }
+    }
   },
   "gpm": {
       "type": "theme",

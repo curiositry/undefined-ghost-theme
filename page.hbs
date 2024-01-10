@@ -9,12 +9,12 @@
     {{#post}}
     
       {{#if @page.show_title_and_feature_image}}
-        <header class="page__header">
-          <h1 class="page__title mt0">{{title}}</h1>
-          <section class="page__meta">
-            <time class="page__date hidden" datetime="{{date format='YYYY-MM-DD'}}">Published on {{date format="MMMM Do YYYY"}}</time>
-          </section>
-        </header>
+      <header class="page__header">
+        <h1 class="page__title mt0">{{title}}</h1>
+        <section class="page__meta">
+          <time class="page__date hidden" datetime="{{date format='YYYY-MM-DD'}}">Published on {{date format="MMMM Do YYYY"}}</time>
+        </section>
+      </header>
       {{/if}}
       <section class="page__content">
         {{content}}

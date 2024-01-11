@@ -2,7 +2,7 @@
   "name": "undefined",
   "description": "A minimal starter theme for the Ghost blogging platform",
   "demo": "http://github.com/curiositry/undefined-ghost-theme",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "engines": {
       "ghost": ">=5.75.3"
   },
@@ -31,11 +31,7 @@
                 "width": 3000
             }
         },
-    "custom": {
-        "site_background_color": {
-            "type": "color",
-            "default": "#ffffff"
-        },
+    "custom": {       
         "header_font": {
             "type": "select",
             "options": [

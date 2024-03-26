@@ -2,9 +2,9 @@
   "name": "undefined",
   "description": "A minimal starter theme for the Ghost blogging platform",
   "demo": "http://github.com/curiositry/undefined-ghost-theme",
-  "version": "4.1.1",
+  "version": "4.2.1",
   "engines": {
-      "ghost": ">=5.75.3"
+      "ghost": ">=5.81.0"
   },
   "author": {
       "name": "Curiositry",
@@ -49,6 +49,10 @@
                 "Timeless mono"
             ],
             "default": "Elegant serif"
+        },
+        "newsletter_optin_cta": {
+            "type": "text",
+            "default": ""
         }
     }
   },

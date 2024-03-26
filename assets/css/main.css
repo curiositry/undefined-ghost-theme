@@ -213,3 +213,12 @@ Want something a bit leaner? You can drop the snippet I used in my premium Weblo
 .error ~ .message-error {
   display: block;
 }
+
+.email-optin-widget--welcome-mat {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}

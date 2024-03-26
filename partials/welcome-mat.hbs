@@ -1,19 +1,5 @@
-{{#if @member}}
-  <section class="email-optin-widget center-text">
-    <small style="color: grey;">
-      Thanks for being a <em>{{@site.title}}</em> subscriber,
-      {{#if @member.name}}
-          {{@member.name}}
-        {{else}}
-          {{@member.email}}
-      {{/if}}!
-      <a href="#!" data-members-signout>[Sign out]</a>
-    </small>
-  </section>
-
-  {{else}}
-
-  <section class="email-optin-widget email-optin-widget--welcome-mat">
+{{#unless @member}}
+   <section class="email-optin-widget email-optin-widget--welcome-mat">
     <div class="container">
 
       <h1>{{@site.title}}</h1>
@@ -40,10 +26,5 @@
 
     </div>
   </section>
-{{/if}}
+{{/unless}}
 
-
-<style>
-
-
-</style>

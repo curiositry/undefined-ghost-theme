@@ -14,28 +14,28 @@ body {
 }
 
 .has-serif-text p {
-  font-family: var(--serif-font-stack);
+  font-family: var(--gh-font-body, var(--serif-font-stack));
 }
 
 .has-sans-text p {
-  font-family: var(--sans-font-stack);
+  font-family: var(--gh-font-body, var(--sans-font-stack));
 }
 
 .has-mono-text p {
-  font-family: var(--mono-font-stack);
+  font-family: var(--gh-font-body, var(--mono-font-stack));
 }
 
 .has-serif-header * {
-  font-family: var(--serif-font-stack);
+  font-family: var(--gh-font-heading, var(--serif-font-stack));
 }
 
 .has-sans-header * {
-  font-family: var(--sans-font-stack);
+  font-family: var(--gh-font-heading, var(--sans-font-stack));
 }
 
 .has-mono-header * {
-  font-family: var(--mono-font-stack);
-} 
+  font-family: var(--gh-font-heading, var(--mono-font-stack));
+}
 
 /* .has-serif-header h1,
 .has-serif-header h2,
@@ -84,11 +84,12 @@ figcaption {
 
 /* Remove vertical whitespace on initial, final, & stacked full-width cards, per recommendation. */
 .page--no-header .kg-width-full:not(.kg-card-hascaption):first-child,
-.kg-width-full + .kg-width-full {
-  margin-top: 0;  
+.kg-width-full+.kg-width-full {
+  margin-top: 0;
 }
+
 .page__content .kg-width-full:not(.kg-card-hascaption):last-child,
-.kg-width-full + .kg-width-full {
+.kg-width-full+.kg-width-full {
   margin-bottom: 0;
 }
 
@@ -120,10 +121,13 @@ https://github.com/curiositry/mnml-ghost-theme
 /* ==================== */
 
 /* Style at will... */
-.kg-gallery-card { }
-.kg-gallery-container { }
-.kg-gallery-row { }
-.kg-gallery-image { }
+.kg-gallery-card {}
+
+.kg-gallery-container {}
+
+.kg-gallery-row {}
+
+.kg-gallery-image {}
 
 /*
 Docs can be found here: http://themes.ghost.org/docs/ghost-editor#section-gallery-card
@@ -137,17 +141,26 @@ https://github.com/TryGhost/Casper/pull/475/files#diff-ce5e030f2e2e2a50f18199464
 /* ==================== */
 
 /* Style at will... */
-.kg-bookmark-card { }
-.kg-bookmark-container { }
-.kg-bookmark-content { }
-.kg-bookmark-title { }
+.kg-bookmark-card {}
+
+.kg-bookmark-container {}
+
+.kg-bookmark-content {}
+
+.kg-bookmark-title {}
+
 .kg-bookmark-description,
-.kg-bookmark-metadata { }
-.kg-bookmark-thumbnail { }
-.kg-bookmark-thumbnail img { }
-.kg-bookmark-icon { }
-.kg-bookmark-author:after { }
-.kg-bookmark-publisher { }
+.kg-bookmark-metadata {}
+
+.kg-bookmark-thumbnail {}
+
+.kg-bookmark-thumbnail img {}
+
+.kg-bookmark-icon {}
+
+.kg-bookmark-author:after {}
+
+.kg-bookmark-publisher {}
 
 
 /*
@@ -208,9 +221,9 @@ Want something a bit leaner? You can drop the snippet I used in my premium Weblo
   content: "Success :)";
 }
 
-.success ~ .message-success,
-.invalid ~ .message-error,
-.error ~ .message-error {
+.success~.message-success,
+.invalid~.message-error,
+.error~.message-error {
   display: block;
 }
 

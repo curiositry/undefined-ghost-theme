@@ -2,13 +2,13 @@
   "name": "undefined",
   "description": "A minimal starter theme for the Ghost blogging platform",
   "demo": "http://github.com/curiositry/undefined-ghost-theme",
-  "version": "4.2.1",
+  "version": "4.3.1",
   "engines": {
-      "ghost": ">=5.81.0"
+      "ghost": ">=5.104.0"
   },
   "author": {
       "name": "Curiositry",
-      "email": "isa@automathic.org",
+      "email": "info@automathic.org",
       "url": "http://curiositry.com"
   },
   "config": {

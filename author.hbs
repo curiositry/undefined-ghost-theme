@@ -43,14 +43,14 @@
 
       {{#if twitter}}
         <span class="author-info__twitter inline-block">
-          Twitter handle: <a href="{{twitter_url}}"><strong>{{name}}</strong></a>
+          Twitter handle: <a href="{{social_url type="twitter"}}"><strong>{{name}}</strong></a>
         </span>
         &ensp;
       {{/if}}
 
       {{#if facebook}}
         <span class="author-info__facebook inline-block">
-          Facebook page: <a href="{{facebook_url}}"><strong>{{facebook_url}}</strong></a>
+          Facebook page: <a href="{{social_url type="facebook"}}"><strong>{{social_url type="facebook"}}</strong></a>
         </span>
         &ensp;
       {{/if}}

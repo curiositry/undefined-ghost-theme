@@ -1,5 +1,13 @@
 <footer class="site-footer">
 
+{{#social_accounts @site}}
+  {{#if @first}}
+    <div class="site-footer__socials">
+  {{/if}}
+  <a href="{{href}}" style="border-bottom:none;" target="_blank" rel="noopener" aria-label="{{name}}">{{name}}</a>{{#unless @last}}&nbsp;{{/unless}}
+  {{#if @last}}</div><br>{{/if}}
+{{/social_accounts}}
+
   {{#if @site.secondary_navigation}}
     <nav class="site-footer__navigation" role="navigation">
       {{navigation type="secondary"}}
